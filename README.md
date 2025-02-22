@@ -1,40 +1,66 @@
-# Welcome to Remix!
+# Crypto Reality Check 🚀
 
-- 📖 [Remix docs](https://remix.run/docs)
+A web app that converts your crypto into real-world items. See exactly what you could buy with your ETH or BTC in terms of everyday items.
 
-## Development
+## Features ✨
 
-Run the dev server:
+- Real-time crypto price conversion using Chainlink price feeds
+- Select from different categories (Food, Tech, Cars, Education)
+- Instant calculation of how many items you could buy
+- Smooth animations and clean UI
+- Mobile responsive
 
-```shellscript
+## Tech Stack 🛠
+
+- [Remix](https://remix.run/) - Full stack web framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Chainlink](https://chain.link/) - Real-time price feeds
+- [Ethers.js](https://docs.ethers.org/) - Blockchain interaction
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Framer Motion](https://www.framer.com/motion/) - Animations
+
+## Getting Started 🚀
+
+1. Clone the repository:
+```bash
+git clone https://github.com/miltonisblurrd/cryptoRealityCheck.git
+```
+
+2. Install dependencies:
+```bash
+cd crypto-reality-check
+npm install
+```
+
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-## Deployment
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-First, build your app for production:
+## Environment Variables 🔑
 
-```sh
-npm run build
+Create a `.env` file in the root directory:
+```bash
+ALCHEMY_API_KEY=your_alchemy_api_key
 ```
 
-Then run the app in production mode:
+## Contributing 🤝
 
-```sh
-npm start
-```
+This is an ongoing project! We're looking for more real-world comparison ideas to add to our categories. The more relatable the items, the better!
 
-Now you'll need to pick a host to deploy it to.
+Have a suggestion? Hit us up on Twitter [@blurrdstudio](https://twitter.com/blurrdstudio) with your recommendations!
 
-### DIY
+## Versions 📦
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+- v1.0.0 - Initial release with price checking and categories
+- v1.1.0 - Added Framer Motion animations
 
-Make sure to deploy the output of `npm run build`
+## License 📝
 
-- `build/server`
-- `build/client`
+MIT License - feel free to use this code for your own projects!
 
-## Styling
+## Author ✍️
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+Blurrd Studio - [@blurrdstudio](https://twitter.com/blurrdstudio)
